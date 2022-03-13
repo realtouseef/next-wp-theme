@@ -1,0 +1,36 @@
+.footer {
+  background-color: rgb(37, 28, 28);
+  color: white;
+  padding: 4rem 0;
+
+  &_inner {
+    display: flex;
+    justify-content: space-evenly;
+
+    .footer_left ul li,
+    .footer_right ul li {
+      color: grey;
+
+      &:hover {
+        color: white;
+        text-decoration: underline;
+      }
+    }
+
+    // &_social {
+    //   list-style: none;
+    //   display: flex;
+    //   flex-direction: column;
+    //   &_link {
+    //     display: flex;
+    //     flex-direction: column;
+    //   }
+    // }
+  }
+  .copyright {
+    font-size: 0.875em;
+    text-align: center;
+    padding: 1rem 0;
+    color: rgb(204, 194, 194);
+  }
+}
