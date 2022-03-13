@@ -2,14 +2,14 @@ import Head from "next/head";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import styles from "./layout.module.scss";
-import { isEmpty } from "lodash";
+// import { isEmpty } from "lodash";
 import { sanitize } from "../../utils/misc";
 import { Seo } from "../seo/Seo";
 
 const Layout = ({ data, children }) => {
-  if (isEmpty(data?.page)) {
-    return null;
-  }
+  // if (isEmpty(data?.page)) {
+  //   return null;
+  // }
 
   const { page, header, footer, menus } = data || {};
 
