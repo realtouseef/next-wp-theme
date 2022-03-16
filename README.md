@@ -22,4 +22,4 @@ WP-Next-Theme uses a number of open source projects to work properly:
 - [Local By Flywheel] - local web server software that allows you to develop your website on your machine
 - [Lodash] - using some of its functionalities
 
-And of course WP-Next-Theme itself is open source.
+[it's not completed, have a lot of basic functionalities to add]
